@@ -26,6 +26,11 @@
     font-size: clamp(10px, 2vw, 24px);
 }
 
+.font-size-input input {
+    font-size: clamp(14px, 4vw, 20px);
+}
+
+
 .text-lines, .title-lines {
     display: flex;
 

@@ -1,0 +1,180 @@
+Element,Name,Degree,Cost,Duration,Time,Range,Requirements
+Éter,Disparo Arcano,1,1 PE,Instantâneo,Ação Principal,Médio,Nenhum
+Éter,Doar Mana,2,--,Instantâneo,Ação de Movimento,Médio,Nenhum
+Éter,Campo de Força,3,2 PE,Até Ser Atacado,Ação de Movimento,Toque,Mãos Livres
+Éter,Explosão de Mana,4,4 PE,Instantâneo,Turno,Curto,Nenhum
+Éter,Dissipar Feitiço,5,"Custo do Feitiço
+Alvo + Grau",Instantâneo,Ação Principal,Médio,Mãos Livres
+Éter,Roubar Mana,6,--,1 Turno,Turno,Médio,"Concentração, Mãos Livres, Visão"
+Éter,Julgamento,7,12 PE,Instantâneo,Turno,Longo,"Componente (Qualquer Arma), Visão"
+Terra,Pedregulho,1,2 PE,Instantâneo,Ação Principal,Curto,Toque
+Terra,Pilhastra,1,2 PE,3 Horas,Ação de Movimento,Médio,Visão
+Terra,Mão na Lama,1,2 PE,1 Minuto,Ação de Movimento,--,"Componente (Terra não dura), Mãos Livres"
+Terra,Muralha,2,3 PE,Durabilidade,Ação de Movimento,Curto,Toque
+Terra,Areia Movediça,2,2 PE,5 Minutos,Ação Principal,Médio,Mãos Livres
+Terra,Estalagmite,2,3 PE,2 Turnos,Ação Principal,4 Metros,Toque
+Terra,Esmerilhar,3,4 PE,Instantâneo,Ação de Movimento,5 Metros³,"Toque, Mãos Livres"
+Terra,Encouraçado,3,3 PE,1h / Durabilidade,1 Minuto,--,Canto
+Terra,Moldar Metal,3,2 PE,--,Ação de Movimento,Toque,"Componente (Metal), Mãos Livres, Toque"
+Terra,Ruptura,4,6 PE,Instantâneo,Ação Principal,12 Metros,Toque
+Terra,Esmagar,4,3 PE,2 Turnos,Ação Principal,Longo,"Concentração, Mãos Livres"
+Terra,Espinhos,4,5 PV,1 Dia,Turno,Longo,"Visão, Mãos Livres"
+Terra,Cromar,5,4 PE,--,5 Minutos,Toque,"Concentração, Mãos Livres, Toque"
+Terra,Desabamento,5,7 PE,10 Minutos,Turno,Longo,"Canto, Toque"
+Terra,Cristalino,6,2 PE Perm,3 Horas,1 Minuto,--,Concentração
+Terra,Desertificação,6,10 PV,Instantâneo,Turno,Médio,"Canto, Toque"
+Terra,Terremoto,7,20 PE,20 Minutos,1 Minuto,Longo,"Concentração, Toque"
+Água,Esguicho,1,2 PE,Instantâneo,Ação Principal,3 Metros,"Canto, Mãos Livres"
+Água,Esfriar,1,1 PE,Instantâneo,Ação Bônus,Toque,"Canto, Mãos Livres"
+Água,Arma Aquática,1,1 PE,Até Atacar,Ação Bônus,--,Mãos Livres
+Água,Correnteza,2,3 PE,Instantâneo,Ação Principal,Curto,Visão
+Água,Respirar Embaixo D'água,2,1 PE,1 Hora,Ação Principal,3 Metros,Marca
+Água,Pegando Onda,2,3 PE,Instantâneo,Ação Principal,Curto,Nenhum
+Água,Bolha,3,3 PE,10 Minutos,Ação Principal,Médio,Mãos Livres
+Água,Nadadeira,3,4 PE,1 Hora,Ação de Movimento,Toque,"Concentração, Toque"
+Água,Umidificador,3,5 PE,20 Minutos,Turno,Médio,Componente (Água)
+Água,Criogênico,4,4 PV,Até Derreter,Ação Principal,Toque,Toque
+Água,Redemoinho,4,4 PE,Enquanto se Concentrar,Ação de Movimento,Até onde puder Ver,"Componente (Água), Concentração, Visão"
+Água,Empoçar,4,5 PE,10 Minutos,Ação Principal,Médio,"Canto, Visão"
+Água,Inundação,5,7 PE,20 Minutos,Turno,Médio,Canto
+Água,Forma Fluida,5,10 PE,10 Minutos,Ação de Movimento,--,Toque
+Água,Tempestuoso,6,10 PE,30 Minutos,2 Turnos,Longo,Mãos Livres
+Água,Geada,6,10 PV,1 Hora,Ação Principal,Médio,"Canto, Concentração"
+Água,Dilúvio,7,15 PE,Instantâneo,5 Minutos,Extremo,"Canto, Concentração"
+Planta,Cáule Caçador,1,2 PE,Instantâneo,Ação Principal,Médio,Nenhum
+Planta,Sementes,1,1 PE,--,Ação de Movimento,Toque,Componente (Semente)
+Planta,Avatar,1,2 PE,1 Rodada,Ação Bônus,Curto,Visão
+Planta,Falar com Plantas,2,1 PE,1d4 Minutos,Ação de Movimento,Curto,Saber Falar
+Planta,Raízes,2,3 PE,1 Minuto,Ação de Movimento,Médio,"Visão, Mãos Livres"
+Planta,Dedo Verde,2,2 PE,3 Rodadas,Ação Bônus,--,Ser Vegano (Opcional)
+Planta,Erva Daninha,3,4 PE,1 Dia/Até o PV Acabar,Ação Principal,Curto,"Canto, Visão"
+Planta,Polinização,3,5 PE,2 Rodadas,Ação de Movimento,Curto,"Componente (Qualquer Planta), Mãos Livres"
+Planta,Primaveres,3,3 PE,1 Hora,Ação de Movimento,Médio,Visão
+Planta,Ambientação,4,6 PE,--,Ação Principal,Médio,Concentração
+Planta,Prótese Plantada,4,3 PV,3 Horas,Ação de Movimento,--,Componente (Sangue)
+Planta,Esporos Espelhos,4,5 PE,1 Hora,Turno,Curto,"Concentração, Visão"
+Planta,Fungicida,5,7 PE,3 Horas/Até Alvos Morrerem,Ação Principal,Curto,"Componente (Qualquer Cogumelo), Mãos Livres"
+Planta,Polpa Bubônica,5,5 PV,3 Rodadas,Ação Principal,Médio,"Marca, Visão"
+Planta,Coração da Natureza,6,10 PE,Até Ser Morto,1 Minuto,Longo,Toque
+Planta,Fotossíntese,6,8 PE,1 Dia,5 Minutos,--,Concentração
+Planta,Gênese,7,20 PE,1 Hora,10 Minutos,Longo,"Concentração, Plantar 50 Árvores (Pouco Opcional)"
+Ar,Seta Soante,1,1 PE,Instantâneo,Ação Principal,Médio,Mãos Livres
+Ar,Assopro,1,1 PE,Instantâneo,Ação de Movimento,Curto,Mãos Livres
+Ar,Levantar,1,2 PE,Instantâneo,Ação de Movimento,Médio,Visão
+Ar,Sentindo o Vento,2,2 PE,3 Rodadas,Ação de Movimento,Curto,Concentração
+Ar,Rasante,2,3 PE,2 Rodadas,Ação Bônus,Médio,Mãos Livres
+Ar,Impulso,2,4 PE,2 Rodadas,Ação Bônus,--,Canto
+Ar,Ventania,3,4 PE,5 Minutos,Ação Principal,15 Metros,Marca
+Ar,Pulso Planador,3,3 PE,Até não ter Mãos Livres,Ação de Movimento,Médio,"Visão, Mãos Livres"
+Ar,Cortina de Fumaça,3,5 PE,1 Minuto,Ação de Movimento,5 Metros,Componente (Uma fonte de Fumaça)
+Ar,Ciclone,4,5 PE,Instantâneo,Ação Principal,Curto,"Canto, Visão"
+Ar,Levitação,4,4 PE,1 Minuto,Ação Principal,Toque,Toque
+Ar,Sob Pressão,4,5 PE,Instantâneo,Ação Principal,Médio,"Canto, Mãos Livres, Visão"
+Ar,Exclusão,5,7 PE,1 Minuto,Ação Principal,Curto,"Concentração, Mãos Livres"
+Ar,Asas,5,7 PE,10 Minutos,Ação de Movimento,--,Concentração
+Ar,Dragão dos Céus,6,12 PE,5 Minutos,Turno,Aonde os Ventos Reinarem,"Canto, Mãos Livres, Visão"
+Ar,Tufão,6,10 PE,30 Minutos,1 Minuto,Longo,Concentração
+Ar,Furacão,7,18 PE,1 Hora,5 Minutos,Até Acabar,"Concentração, Mãos Livres"
+Fogo,Combustão Espontânea,1,2 PE,Instantâneo,Ação Principal,Longo,Visão
+Fogo,Labareda,1,2 PE,Instantâneo,Ação Principal,3 Metros,"Canto, Mãos Livres"
+Fogo,Esquentar,1,1 PE,Instantâneo,Ação Bônus,Toque,Toque
+Fogo,Bola de Fogo,2,3 PE,Instantâneo,Ação Principal,Médio,Mãos Livres
+Fogo,Escudo Termal,2,3 PE,3 Rodadas,Ação de Movimento,Toque,"Canto, Toque"
+Fogo,Fornalha,2,3 PE,1 Minuto,Ação de Movimento,Médio,"Concentração, Visão"
+Fogo,Mina Remota,3,3 PE,Até Ativar,Ação Bônus,Toque,"Componente (Algo facilmente inflamável), Marca"
+Fogo,Sensação Térmica,3,3 PE,30 Segundos,Ação de Movimento,Médio,Concentração
+Fogo,Onda de Calor,3,4 PE,2 Rodadas,Ação de Movimento,Curto,Canto
+Fogo,EXPLOSÃO,4,5 PE,Instantâneo,Ação Principal,Médio,"Canto (Você deve gritar: “EXPLOSÃO!”), Mãos Livres"
+Fogo,Magmático,4,5 PE,1 Hora,Ação de Movimento,Médio,Visão
+Fogo,Chama D’Alva,4,1 Alma,Até você não satisfazer mais os desejos do Fogo,1 Minuto,--,"Componente (Vela), Concentração"
+Fogo,Tocha Humana,5,5 PV,10 Minutos,Turno,--,Canto
+Fogo,Meteoros,5,10 PE,Instantâneo,Turno,Extremo,"Canto, Concentração"
+Fogo,Erupção,6,12 PE,30 Minutos,1 Minuto,Médio,"Toque, Mãos Livres"
+Fogo,Carbonizar,6,10 PV,Instantâneo,Ação Principal,Até bater em algo,"Canto, Mãos Livres, Visão"
+Fogo,Inferno,7,20 PE,Instantâneo,5 Minutos,Longo,Concentração
+Raio,Choque,1,2 PE,Instantâneo,Ação Principal,Toque,"Toque, Mãos Livres"
+Raio,Carregador,1,1 PE,1 Minuto,Ação de Movimento,--,Marca
+Raio,Poder Infinito,1,2 PE,Enquanto Tiver Mãos Livres,1 Minuto,Médio,"Canto, Mãos Livres"
+Raio,Eletrolíticos,2,3 PE,Instantâneo,Ação Principal,Médio,"Visão, Mãos Livres"
+Raio,Salto de Ampére,2,2 PE,Instantâneo,Ação de Movimento,Curto,Nenhum
+Raio,Bateria,2,3 PE,1 Minuto,Ação Principal,--,Concentração
+Raio,Corrente Alternada,3,2 PE por Marca,3 Rodadas,Ação de Movimento,Toque,"Toque, Mãos Livres"
+Raio,Eletromagnetismo,3,4 PE,1 Minuto,Ação Principal,Curto,Mãos Livres
+Raio,Força Fusível,3,3 PE,2 Rodadas,Ação de Movimento,Médio,Canto
+Raio,Trovão,4,5 PE,Instantâneo,Ação Principal,Longo,"Canto, Visão"
+Raio,Isolante,4,6 PE,1 Hora,Ação de Movimento,Toque,Marca
+Raio,Relâmpago Ricochete,4,4 PE,Enquanto se Concentrar,Ação Principal,Até onde a energia poder ir,Mãos Livres
+Raio,Superaquecimento,5,4 PE,30 Segundos,Ação Principal,Toque,"Componente (Cobre), Toque"
+Raio,Catalisador,5,10 PE,10 Minutos,Ação Principal,Curto,"Concentração, Marca"
+Raio,Acelerante,6,1 PS,5 Minutos,Turno,Curto,Visão
+Raio,Ponto Plasma,6,10 PE,Enquanto Tiver Mãos Livres,1 Minuto,Toque,"Concentração, Mãos Livres"
+Raio,Supernova,7,15 PE,10 Minutos,3 Turnos,Até onde conseguir ver,"Canto, Componente (Turmalina), Concentração, Visão"
+Luz,Cura,1,2 PE,Instantâneo,Ação Bônus,Toque,"Toque, Mãos Livres"
+Luz,Lanterna,1,1 PE,1 Minuto,Ação Bônus,Curto,Nenhum
+Luz,Abençoar,1,2 PE,2 Rodadas,Ação de Movimento,Curto,"Visão, Mãos Livres"
+Luz,Purificar,2,2 PE,Instantâneo,Ação de Movimento,Toque,"Toque, Mãos Livres"
+Luz,Lança da Paz,2,3 PE,Instantâneo,Ação Principal,Médio,"Visão, Mãos Livres"
+Luz,Guia Divino,2,3 PE,--,Ação de Movimento,Curto,Visão
+Luz,Barreira,3,4 PE,Até Acabar o PV,Ação Principal,Curto,"Concentração, Mãos Livres"
+Luz,Selo,3,4 PE,Até ser Dissipado,Ação de Movimento,Toque,Marca
+Luz,Armadura Celeste,3,3 PE,5 Minutos,Ação Bônus,Médio,"Canto, Visão"
+Luz,Balança da Justiça,4,5 PE,10 Minutos,Turno,Curto,"Concentração, Visão"
+Luz,Halo Glorioso,4,5 PE,3 Rodadas,Ação Principal,Médio,"Concentração, Visão"
+Luz,Ressuscitar,4,6 PE,--,1 Rodada,Toque,"Concentração, Toque"
+Luz,Raio Solar,5,7 PE,10 Segundos,Ação Principal,Extremo,"Canto, Mãos Livres"
+Luz,Milagre,5,8 PE,3 Rodadas,Ação Bônus,Médio,"Concentração, Mãos Livres, Visão"
+Luz,Cidadela Astral,6,10 PE,10 Minutos,1 Minuto,Médio,Concentração
+Luz,Ascenção,6,2 PE Perm,3 Horas,2 Turnos,Toque,"Canto, Toque"
+Luz,Réquiem,7,25 PE,Instantâneo,1 Minuto,Longo,"Canto, Concentração"
+Sombras,Escuridão,1,1 PE,1 Minuto,Ação Bônus,Curto,Mãos Livres
+Sombras,Sabotar Sentido,1,2 PE,1 Minuto,Ação de Movimento,Médio,Visão
+Sombras,Mal Agouro,1,2 PE,3 Rodadas,Ação Principal,Curto,Canto
+Sombras,Assombração,2,3 PE,Instantâneo,Ação de Movimento,Curto,Nenhum (Você já é feio assim naturalmente)
+Sombras,Disfarce,2,2 PE,5 Minutos,Ação de Movimento,Toque,Concentração
+Sombras,Eminência Sombria,2,3 PE,Instantâneo,Ação de Movimento,Até acertar Algo Físico,Mãos Livres
+Sombras,Camaleão,3,3 PE,10 Minutos,Ação Principal,--,Concentração
+Sombras,Maldição,3,3 PV,Enquanto o PV do Alvo durar,Ação Principal,Toque,"Canto, Marca, Toque"
+Sombras,Maré de Azar,3,4 PE,Os 2 próximos Testes do Alvo,Ação de Movimento,Médio,"Canto, Visão"
+Sombras,Deteriorar,4,5 PE,Até o Alvo ser Destruído,Ação Principal,Toque,"Toque, Mãos Livres"
+Sombras,Chamado,4,1 PS,6 Horas,1 Minuto,--,"Canto, Concentração, Marca"
+Sombras,Imagem Ilusória,4,5 PE,1 Hora,Ação Principal,Curto,Mãos Livres
+Sombras,Pesadelo,5,10 PE,Instantâneo,Turno,Curto,"Canto, Concentração"
+Sombras,Adentre o Vazio,5,7 PV,Instantâneo,Ação Principal,Médio,"Visão, Mãos Livres"
+Sombras,Mestre dos Fantoches,6,10 PE,Até não ter mais Concentração,1 Minuto,Curto,"Concentração, Mãos Livres, Visão"
+Sombras,Perdição,6,2 PS,6 Horas,2 Turnos,Médio,"Concentração, Vião, Canto"
+Sombras,Calamidade,7,25 PE,1 Hora,5 Minutos,Médio,"Canto, Visão"
+Alma,Reanimação,1,2 PE,1 Hora,Ação de Movimento,Toque,Toque
+Alma,Manipulação de Alma,1,1 PE,Instantâneo,Ação de Movimento,Curto,Concentração
+Alma,Premonição,1,2 PE,2 Rodadas,Ação Principal,Médio,Visão
+Alma,Falar com os Mortos,2,2 PE,5 Perguntas,Ação de Movimento,Toque,Nenhum
+Alma,Ordem Ossada,2,3 PE,Até quebrar/ser Conjurado de novo ,Ação de Movimento,Toque,"Componente (Ossos de qualquer corpo), Toque "
+Alma,Sepultura,2,1 Alma,Instantâneo,Ação Principal,Médio,"Visão, Mãos Livres"
+Alma,Reviver,3,4 PE,Até Acabar o PV do Alvo,1 Minuto,Curto,"Canto, Concentração"
+Alma,Fantasmagórico,3,2 Almas,5 Minutos/Até o fim do combate ,Ação Principal,Médio,Mãos Livres
+Alma,Sensação do Além,3,4 PE,Enquanto se Concentrar,Turno,Médio,Concentração
+Alma,Roubo de Vida,4,5 PE,Instantâneo,Ação Principal,Toque,"Toque, Mãos Livres"
+Alma,Tormenta,4,7 PE,Até o Alvo Resistir,Ação Principal,Curto,"Canto, Visão"
+Alma,Poltergeist,4,3 Almas,3 Rodadas,Ação Principal,Médio,"Visão, Mãos Livres"
+Alma,Pânico,5,4 Almas,Instantâneo,Ação Principal,Até acertar Algo Físico,Mãos Livres
+Alma,Banimento,5,8 PE,--,1 Minuto,Toque,"Canto, Concentração, Toque, Mãos Livres"
+Alma,Toque da Morte,6,12 PE,Até o Alvo Morrer,Ação Bônus,Toque,"Marca, Toque"
+Alma,Histórias de Homens Mortos,6,7 Almas,1 Dia,1 Hora,--,Concentração
+Alma,Tornado de Almas,7,20 PE,"Até o conjurador chegar a 0
+PV ou PE",5 Minutos,Extremo,"Componente (Fonte de Luz), Canto"
+Cinética,Intercomunicador,1,1 PE,3 Horas,Ação Livre,--,Marca
+Cinética,Visão do Passado,1,1 PE,Instantâneo,Ação de Movimento,Toque,Concentração
+Cinética,Mente sobre Matéria,1,3 PE,2 Rodadas,Ação Principal,Médio,"Visão, Mãos Livres"
+Cinética,Portal,2,1 PE por Marca,Até a Marca ser Apagada,Ação de Movimento,--,Marca
+Cinética,Reverberar,2,3 PE,Instantâneo,Ação Principal,Curto,Mãos Livres
+Cinética,Imã,2,2 PE,1 Minuto,Ação de Movimento,Curto,"Componente (Algum material Físico), Mãos Livres"
+Cinética,Telecinese,3,3 PE por Marca,5 Minutos,Ação de Movimento,Curto,"Marca, Concentração"
+Cinética,Silêncio,3,4 PE,5 Minutos,Ação de Movimento,Médio,Mãos Livres
+Cinética,Peso Pesado,3,4 PE,3 Rodadas,Ação Principal,Médio,Visão
+Cinética,Fricção,4,6 PE,Instantâneo,Ação Principal,Curto,Componente (Algo que faça um som alto)
+Cinética,Transmutação,4,5 PE,Enquanto tiver Mãos Livres,Ação de Movimento,Toque,"Toque, Mãos Livres"
+Cinética,Trava Temporal,4,5 PE,3 Rodadas,Ação Principal,Médio,"Componente (Algo que pode marcar a hora), Visão"
+Cinética,Mancha do Tempo,5,8 PE,3 Rodadas,Ação Principal,Médio,"Canto, Mãos Livres, Visão"
+Cinética,Assimilação,5,1 PS,Enquanto tiver concentrado,Até se concentrar,Longo,"Componente (Um Vidro ou Cristal), Concentração"
+Cinética,Visão do Futuro,6,12 PE,1 Hora,Ação Bônus,--,Concentração
+Cinética,Ponto Zero,6,20 PE,3 Rodadas,1 Rodada,Toque,"Toque, Mãos Livres, Marca"
+Cinética,Buraco Negro,7,5 PS,20 Minutos,5 Minutos,Extremo,"Canto, Concentração, Mãos Livres, Visão, Estar pronto para não voltar atrás"

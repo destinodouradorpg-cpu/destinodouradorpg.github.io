@@ -16,11 +16,47 @@
 
     <div class="inner-column opaque-background">
         <h1 class="title font-size-title title-lines" id="main-title">Filtro de Feitiços</h1>
+        <h2 class="title font-size-title-s title-lines" id="filters">Filtros</h2>
+        
+        <div id="filter-container" class="font-size-input">
+            <input type="text" id="Elements" placeholder="Elementos" onkeyup="filterTable()">
+            <input type="text" id="Name" placeholder="Nome" onkeyup="filterTable()">
+            <input type="text" id="Degree" placeholder="Grau" onkeyup="filterTable()">
+            <input type="text" id="Cost" placeholder="Custo" onkeyup="filterTable()">
+            <input type="text" id="Range" placeholder="Alcance" onkeyup="filterTable()">
+            <input type="text" id="Time" placeholder="Tempo" onkeyup="filterTable()">
+            <input type="text" id="Duration" placeholder="Duração" onkeyup="filterTable()">
+            <input type="text" id="Requirements" placeholder="Requisitos" onkeyup="filterTable()">
+        </div>
+
+        <br>
+        <h2 class="title font-size-title-s title-lines">Feitiços Disponiveis</h2>
+        
+        <div id="table-container">
+            <table id="table" class="font-size-table">
+                <caption>Feitiços Resultantes</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Elementos</th>
+                        <th scope="col">Nome</th>
+                        <th scope="col">Grau</th>
+                        <th scope="col">Custo</th>
+                        <th scope="col">Duração</th>
+                        <th scope="col">Tempo</th>
+                        <th scope="col">Alcance</th>
+                        <th scope="col">Requisitos</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
     </div>
 
     <div data-include="/assets/presets/footer.html"></div>
 
     <script src="/assets/scripts/htmlinclude.js"></script>
     <script src="/assets/scripts/menu.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+    <script src="index.js"></script>
 </body>
 </html>

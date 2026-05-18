@@ -1,5 +1,5 @@
 button {
-    padding: clamp(4px, 4vw, 24px);
+    padding: clamp(4px, 4vw, 18px);
     font-size: clamp(8px, 4vw, 18px);
     
     color: var(--MainShadowColor);

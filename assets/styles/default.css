@@ -10,8 +10,9 @@ body {
     text-align: center;
 
     background-position-x: center;
-    background-size: cover;
+    background-size: 100vw auto;
     background-image: url("/assets/background_blur.png");
+    background-repeat: repeat-y;
 }
 
 a {color: var(--LinkTextColor);}
@@ -88,7 +89,7 @@ footer {
     padding: 0 8;
 
     top: 0;
-    right: -250px;
+    right: -258px;
 
     width: 242px;
     height: 100%;

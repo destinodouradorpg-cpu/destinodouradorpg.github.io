@@ -1,1 +1,26 @@
 @import url("/assets/styles/default.css");
+
+#main-title {padding-bottom: 0;}
+#filters {padding-top: 0;}
+
+#filter-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+}
+
+#table-container {
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+input {
+    padding: 8px 4px;
+    background-color: var(--BackgroundColorLight);
+    color: var(--GeneralTextColor);
+
+    border-radius: 8px;
+    border: 2px solid var(--MainColor);
+}
