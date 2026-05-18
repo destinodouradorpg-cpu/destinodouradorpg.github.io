@@ -13,14 +13,7 @@
 </head>
 
 <body class="font-size-text old-standard-tt-regular">
-    <button id="menu-button" class="">☰</button>
-
-    <div id="menu">
-        <a href="#">Principal</a>
-        <a href="/spells/">Feitiços</a>
-        <a href="/equipaments/">Equipamentos1</a>
-        <a href="#credits">Créditos</a>
-    </div>
+    <div data-include="/presets/menu.html"></div>
 
     <div class="inner-column opaque-background">
         <h1 class="title font-size-title title-lines" id="main-title">Destino Dourado</h1>
@@ -53,19 +46,19 @@
         <h2 class="title font-size-title-s title-lines" id="credits">Créditos</h2>
         <div id="credits-container">
             <div>
-                <span>— Criado Por —</span>
+                <span class="text-lines">Criado Por</span>
                 <ul><li>Caíque Toledo</li></ul>
                 <br>
-                <span>— Escrito Por —</span>
+                <span class="text-lines">Escrito Por</span>
                 <ul><li>Caíque Toledo</li></ul>
                 <br>
-                <span>— Revisado Por —</span>
+                <span class="text-lines">Revisado Por</span>
                 <br>
-                <span>- Ilustrações Por -</span>
+                <span class="text-lines">Ilustrações Por</span>
                 <ul><li>Leonardo Silva</li></ul>
             </div>
             <div>
-                <span>— Testado Por —</span>
+                <span class="text-lines">Testado Por</span>
                 <ul>
                     <li>Alexandre Carvalho</li>
                     <li>Arthur Benício</li>
@@ -82,29 +75,9 @@
         </div>
     </div>
 
-    <footer class="font-size-text-s">
-        <div id="footer-content">
-            <div id="footer-social">
-                <h3>— Social —</h3>
-            
-                <div id="footer-social-content">
-                    <a href="#">GitHub</a>
-                    <a href="#">Discord</a>
-                    <a href="https://www.youtube.com/@destino_douradorpg">Youtube</a>
-                </div>
-            </div>
-            <div id="footer-credits">
-                <h3>— Créditos —</h3>
-                <span>RPG - Geladera Tsundere</span>
-                <span>Site - MMT007_backUP</span>
-            </div>
-        </div>
+    <div data-include="/presets/footer.html"></div>
 
-        <div id="footer-bottom">
-            © 2026 Destino Dourado
-        </div>
-    </footer>
-
-    <script src="index.js"></script>
+    <script src="/scripts/htmlinclude.js"></script>
+    <script src="/scripts/menu.js"></script>
 </body>
 </html>

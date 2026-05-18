@@ -1,7 +1,4 @@
-@import url("/styles/button.css");
-@import url("/styles/font.css");
 @import url("/styles/default.css");
-@import url("/styles/vars.css");
 
 #main-title {  padding-bottom: 0; }
 

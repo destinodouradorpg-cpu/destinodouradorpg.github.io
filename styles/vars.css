@@ -6,6 +6,6 @@
     
     --GeneralTextColor: rgb(255, 233, 179);
     --LinkTextColor: rgb(231, 199, 120);
-    --HeaderbackgroundColor: #0f0f0fd8;
-    --HeaderbackgroundColorLight: #000000;
+    --BackgroundColor: #000000;
+    --BackgroundColorLight: #0f0f0f;
 }

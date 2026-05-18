@@ -1,3 +1,7 @@
+@import url("/styles/button.css");
+@import url("/styles/font.css");
+@import url("vars.css");
+
 body {
     margin: 0;
     min-height: fit-content;
@@ -30,28 +34,6 @@ a {color: var(--LinkTextColor);}
     background-image: linear-gradient(0, rgba(0, 0, 0, 0.865), rgba(0, 0, 0, 0.499));
     min-height: 100vh;
     border-radius: 16px 16px 0 0;
-}
-
-header {
-    margin: auto;
-    width: fit-content;
-
-    position: sticky;
-    top: 0;
-    z-index: 100;
-
-    margin-bottom: 8px;
-    padding: 4px 12px;
-
-    background-image: linear-gradient(0,  var(--HeaderbackgroundColor), var(--HeaderbackgroundColorLight));
-    border-radius: 0 0 16px 16px;
-    border: 2px solid var(--HeaderbackgroundColorLight);
-
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 32px;
 }
 
 footer {
@@ -103,24 +85,33 @@ footer {
 
 #menu {
     position: fixed;
+    padding: 0 8;
 
     top: 0;
     right: -250px;
 
-    width: 250px;
+    width: 242px;
     height: 100%;
 
-    background-color: #333;
+    background-image: linear-gradient(0, var(--BackgroundColor), var(--BackgroundColorLight));
 
-    padding-top: 60px;
+    padding-top: 20px;
     transition: right 0.3s ease;
+
 }
 
 #menu.active {right: 0;}
-
-
+#menu .title {padding: 10px 4px;}
 #menu a {
     display: block;
-    padding: 10px 20px;
+    padding: 10px 10px;
+
     text-decoration: none;
+
+    border-radius: 3px;
+}
+
+#menu a:hover {
+    border-left: 2px solid var(--LinkTextColor);
+    border-right: 2px solid var(--LinkTextColor);
 }
