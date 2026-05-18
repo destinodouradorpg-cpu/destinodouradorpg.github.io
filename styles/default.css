@@ -1,7 +1,13 @@
 body {
     margin: 0;
+    min-height: fit-content;
+
     color: var(--GeneralTextColor);
     text-align: center;
+
+    background-position-x: center;
+    background-size: cover;
+    background-image: url("/assets/background_blur.png");
 }
 
 a {color: var(--LinkTextColor);}
@@ -14,45 +20,107 @@ a {color: var(--LinkTextColor);}
     text-shadow: var(--MainShadowColor) 3px 3px;
 }
 
-.wrapper {
-    margin: 0;
-    min-height: fit-content;
-
-    background-size: cover;
-    background-image: url("/assets/background_blur.png");
-}
-
 .inner-column {
-    margin: 0 64px 0 64px;
-    min-width: 540px;
+    padding: clamp(16px, 2vw, 48px);
+    margin: 12px 12px 0 12px;
     width: auto;
+    
+    height: fit-content;
 
-    background-color: rgba(0, 0, 0, .8);
+    background-image: linear-gradient(0, rgba(0, 0, 0, 0.865), rgba(0, 0, 0, 0.499));
     min-height: 100vh;
+    border-radius: 16px 16px 0 0;
 }
 
 header {
+    margin: auto;
+    width: fit-content;
+
     position: sticky;
     top: 0;
-
     z-index: 100;
+
+    margin-bottom: 8px;
+    padding: 4px 12px;
+
+    background-image: linear-gradient(0,  var(--HeaderbackgroundColor), var(--HeaderbackgroundColorLight));
+    border-radius: 0 0 16px 16px;
+    border: 2px solid var(--HeaderbackgroundColorLight);
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 32px;
 }
 
 footer {
-    padding: 8px;
-    background-color: rgb(20, 20, 20);
+    width: 100vw;
+
+    padding: 8px 0 8px 0;
+    background-image: linear-gradient(0, rgb(10,10,10), rgb(20, 20, 20));
 }
 
-.footer-content{
+#footer-content{
     margin-bottom: 12px;
 
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
-    gap: 50px;
+    gap: 32px;
 }
 
-.footer-credits {
+#footer-credits {
     display: flex;
     flex-direction: column;
+}
+
+#footer-social-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+}
+
+#footer-bottom {
+    margin-top: 8px;
+}
+
+#menu-button {
+    position: fixed; 
+    right: 18px;
+    bottom: 18px;
+
+    font-size: 20px;
+    padding: 10px 15px;
+
+    cursor: pointer;
+    transition: right 0.3s ease;
+
+    z-index: 2;
+}
+
+
+#menu {
+    position: fixed;
+
+    top: 0;
+    right: -250px;
+
+    width: 250px;
+    height: 100%;
+
+    background-color: #333;
+
+    padding-top: 60px;
+    transition: right 0.3s ease;
+}
+
+#menu.active {right: 0;}
+
+
+#menu a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
 }

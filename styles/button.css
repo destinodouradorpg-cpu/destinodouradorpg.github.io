@@ -1,6 +1,7 @@
 button {
-    padding: 8px 24px 8px 24px;
-    font-size: larger;
+    padding: clamp(4px, 4vw, 24px);
+    font-size: small;
+    
     color: var(--MainShadowColor);
     background-color: var(--MainColor);
 
@@ -17,7 +18,3 @@ button:hover {
 }
 
 button:active {filter: brightness(0.8);}
-
-.button-size2 {
-    font-size: xx-large;
-}

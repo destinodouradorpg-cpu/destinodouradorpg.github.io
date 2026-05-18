@@ -3,13 +3,32 @@
 @import url("/styles/default.css");
 @import url("/styles/vars.css");
 
-#main-title {font-size: 96px;}
-#about {font-size: 64px;}
+#main-title {  padding-bottom: 0; }
+
+#about, #credits { padding-top: 0;}
 
 #about-text {
-    padding: 0 80px 20px 80px;
     margin: 0;
 
     text-align: justify;
-    font-size: 24px;
+}
+
+#credits-container {
+    padding-bottom: 32px;
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: start;
+
+    gap: 20px;
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+
+    text-align: left;
+    justify-content: center;
 }

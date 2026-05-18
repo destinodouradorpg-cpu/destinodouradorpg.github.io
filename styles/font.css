@@ -5,3 +5,41 @@
     font-weight: 400;
     font-style: normal;
 }
+
+.font-size-title {
+    font-size: clamp(24px, 8vw, 96px);
+}
+
+.font-size-title-s {
+    font-size: clamp(24px, 8vw, 64px);
+}
+
+.font-size-text {
+    font-size: clamp(12px, 4vw, 32px);
+}
+
+.font-size-text-s {
+    font-size: clamp(8px, 3vw, 16px);
+}
+
+.title-lines {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  gap: 16px;
+}
+
+.title-lines::before,
+.title-lines::after {
+  content: "";
+  flex: 1 1 0;
+
+  height: 4px;
+  max-width: 128px;
+  
+  background: var(--MainColor);
+  box-shadow: 3px 3px 0 var(--MainShadowColor);
+}
