@@ -3,8 +3,7 @@ Element,Name,Degree,Cost,Duration,Time,Range,Requirements
 Éter,Doar Mana,2,--,Instantâneo,Ação de Movimento,Médio,Nenhum
 Éter,Campo de Força,3,2 PE,Até Ser Atacado,Ação de Movimento,Toque,Mãos Livres
 Éter,Explosão de Mana,4,4 PE,Instantâneo,Turno,Curto,Nenhum
-Éter,Dissipar Feitiço,5,"Custo do Feitiço
-Alvo + Grau",Instantâneo,Ação Principal,Médio,Mãos Livres
+Éter,Dissipar Feitiço,5,"Custo do Feitiço Alvo + Grau",Instantâneo,Ação Principal,Médio,Mãos Livres
 Éter,Roubar Mana,6,--,1 Turno,Turno,Médio,"Concentração, Mãos Livres, Visão"
 Éter,Julgamento,7,12 PE,Instantâneo,Turno,Longo,"Componente (Qualquer Arma), Visão"
 Terra,Pedregulho,1,2 PE,Instantâneo,Ação Principal,Curto,Toque

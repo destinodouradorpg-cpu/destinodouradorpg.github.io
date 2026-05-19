@@ -24,3 +24,9 @@ input {
     border-radius: 8px;
     border: 2px solid var(--MainColor);
 }
+
+#tutorial {
+    width: fit-content;
+    margin: auto;
+    text-align: left;
+}

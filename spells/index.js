@@ -2,7 +2,7 @@ let tableData = [];
 
 Papa.parse("/assets/spells.csv", {
     download: true,
-    header: true,
+    header: false,
     skipEmptyLines: true,
     complete: function(results) {
         buildTable(results.data);
@@ -48,7 +48,28 @@ function filterTable() {
 
             if (!filter) continue;
 
-            if (i === 7) {
+            if (i == 0){
+                const terms = filter.split(",").map(t => t.trim()).filter(Boolean);
+
+                const elementMatch = terms.some(term =>
+                    cellText.includes(term)
+                );
+
+                if (!elementMatch) {
+                    match = false;
+                    break;
+                }
+
+            }
+
+            else if (i === 2) {
+                if (!compareNumber(cellText, filter)){
+                    match = false;
+                    break;
+                }
+            }
+
+            else if (i === 7) {
                 const terms = filter.split(",").map(t => t.trim()).filter(Boolean);
 
                 const requirementMatch = terms.every(term =>
@@ -60,7 +81,9 @@ function filterTable() {
                     break;
                 }
 
-            } else {
+            }
+            
+            else {
                 if (!cellText.includes(filter)) {
                     match = false;
                     break;
@@ -75,6 +98,32 @@ function filterTable() {
 function normalize(text) {
   return text
     .toLowerCase()
-    .normalize("NFD")                // split letters and accents
-    .replace(/[\u0300-\u036f]/g, ""); // remove accents
+    .normalize("NFD")                
+    .replace(/[\u0300-\u036f]/g, "");
+}
+
+function compareNumber(cellValue, filterValue) {
+    const num = parseFloat(cellValue);
+
+    if (isNaN(num)) return false;
+
+    filterValue = filterValue.trim();
+
+    if (filterValue.startsWith(">=")) {
+        return num >= parseFloat(filterValue.slice(2));
+    }
+    if (filterValue.startsWith("<=")) {
+        return num <= parseFloat(filterValue.slice(2));
+    }
+    if (filterValue.startsWith(">")) {
+        return num > parseFloat(filterValue.slice(1));
+    }
+    if (filterValue.startsWith("<")) {
+        return num < parseFloat(filterValue.slice(1));
+    }
+    if (filterValue.startsWith("=")) {
+        return num === parseFloat(filterValue.slice(1));
+    }
+
+    return num === parseFloat(filterValue);
 }
